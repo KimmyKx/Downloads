@@ -1,0 +1,26 @@
+{
+  "name": "downloads",
+  "version": "1.0.0",
+  "description": "Download count handlers for my unity projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimmyKx/Downloads.git"
+  },
+  "author": "Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimmyKx/Downloads/issues"
+  },
+  "homepage": "https://github.com/KimmyKx/Downloads#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "proxy": "http://localhost:3000"
+}
